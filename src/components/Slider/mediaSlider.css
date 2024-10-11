@@ -1,0 +1,46 @@
+/* 1400px */
+@media (max-width: 1400px) {
+    .slider {
+        margin-left: 32px;
+        width: 560px;
+        height: 621px;
+    }
+    
+    .slider img {
+        width: 560px;
+    }
+}
+
+/* 992px*/
+@media (max-width: 992px) {
+    .slider {
+        margin-left: 0px;
+        flex-direction: row;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        cursor: unset;
+        scroll-snap-type: x mandatory;
+    }
+
+    .slider:hover {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        cursor: unset;
+        scroll-snap-type: x mandatory;
+    }
+}
+
+/* 700px*/
+@media (max-width: 700px) {
+    .slider {
+        height: 422px;
+        width: 380px;
+    }
+
+    .slider-wrap1 img, 
+    .slider-wrap2 img, 
+    .slider-wrap3 img, 
+    .slider-wrap4 img {
+        width: 380px;
+    }
+}
